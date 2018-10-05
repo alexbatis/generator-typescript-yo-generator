@@ -29,11 +29,6 @@ npm run dev
 npm link
 ```
 
-[comment]: <> (```bash)
-[comment]: <> (npm install -g yo)
-[comment]: <> (npm install -g generator-typescript-yo-generator)
-[comment]: <> (```)
-
 ### Usage
 
 Then **generate** your new project:
