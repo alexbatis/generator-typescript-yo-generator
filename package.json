@@ -1,0 +1,38 @@
+{
+  "name": "generator-typescript-yo-generator",
+  "description": "Generate a yeoman generator using Typescript 3.x",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/alexbatis/generator-typescript-yo-generator.git"
+  },
+  "main": "generators/app/index.js",
+  "files": [
+    "app",
+    "router"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "concurrently": "^4.0.1",
+    "directory-exists": "^2.0.1",
+    "yeoman-generator": "^2.0.1",
+    "yosay": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.11.4",
+    "@types/yeoman-generator": "^2.0.3",
+    "tsc-watch": "^1.0.29",
+    "typescript": "^3.1.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc-watch"
+  },
+  "author": {
+    "name": "Alex Batis",
+    "url": "https://github.com/alexbatis"
+  },
+  "license": "MIT"
+}
